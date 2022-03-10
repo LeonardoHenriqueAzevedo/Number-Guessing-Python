@@ -24,15 +24,18 @@ while user_number != random_number:
 else:
     if guesses == 1:
         print(
-            f"Você leu minha mente!, eu tinha pensado no número {random_number}.")
+            f"Você leu minha mente, eu tinha pensado no número {random_number}.")
         print(
-            f"Acertou de primeira com {guesses} tentativas")
+            f"Acertou de primeira com {guesses} tentativas!")
     if guesses < 3:
         print(
             f"Você está com muita sorte hoje!, eu tinha pensado no número {random_number}.")
         print(
-            f"Acertou com {guesses} tentativas")
+            f"Acertou com {guesses} tentativas!")
     if guesses < 5:
         print(
             f"Que rápido, eu tinha pensado no número {random_number}.")
-        print(f"Que rápido, acertou com {guesses} tentativas!")
+        print(f"Acertou com {guesses} tentativas!")
+    if guesses > 5:
+        print(f"Parabéns, eu tinha pensado no número {random_number}.")
+        print(f"Acertou em {guesses} tentativas!")
