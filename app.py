@@ -22,12 +22,13 @@ while user_number != random_number:
             input(f"Digite outro número maior do que {user_number}: "))
         guesses += 1
 else:
-    print(f"Parabéns, eu tinha pensado no número {random_number}.")
     if guesses == 1:
         print(
-            f"Você leu minha mente! Acertou de primeira com {user_number} tentativas")
+            f"Você leu minha mente!, eu tinha pensado no número {random_number}.")
+        print(
+            f"Acertou de primeira com {guesses} tentativas")
     if guesses < 3:
         print(
-            f"Você está com muita sorte hoje! Acertou com {user_number} tentativas")
+            f"Você está com muita sorte hoje! Acertou com {guesses} tentativas")
     if guesses < 5:
-        print(f"Que rápido, acertou com {user_number} tentativas!")
+        print(f"Que rápido, acertou com {guesses} tentativas!")
