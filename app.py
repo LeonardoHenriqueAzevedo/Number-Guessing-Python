@@ -29,6 +29,10 @@ else:
             f"Acertou de primeira com {guesses} tentativas")
     if guesses < 3:
         print(
-            f"Você está com muita sorte hoje! Acertou com {guesses} tentativas")
+            f"Você está com muita sorte hoje!, eu tinha pensado no número {random_number}.")
+        print(
+            f"Acertou com {guesses} tentativas")
     if guesses < 5:
+        print(
+            f"Que rápido, eu tinha pensado no número {random_number}.")
         print(f"Que rápido, acertou com {guesses} tentativas!")
