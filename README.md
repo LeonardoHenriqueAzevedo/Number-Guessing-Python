@@ -3,7 +3,7 @@ A number guessing of 0 to 10 made in Python, this number guessing helps you tell
 
 ## Interface 
 <h1 align="center">
-    <img alt="number_gif" title="number_GIF" src="github/number_guessing_GIF.gif">
+    <img alt="number_gif" title="number_GIF" src="github/number_guessing.gif">
 </h1>
 
 # 💻 Technologies
