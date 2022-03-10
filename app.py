@@ -27,12 +27,12 @@ else:
             f"Você leu minha mente, eu tinha pensado no número {random_number}.")
         print(
             f"Acertou de primeira com {guesses} tentativas!")
-    if guesses < 3:
+    if guesses <= 3 and guesses > 1:
         print(
             f"Você está com muita sorte hoje!, eu tinha pensado no número {random_number}.")
         print(
             f"Acertou com {guesses} tentativas!")
-    if guesses < 5:
+    if guesses <= 5 and guesses > 3:
         print(
             f"Que rápido, eu tinha pensado no número {random_number}.")
         print(f"Acertou com {guesses} tentativas!")
